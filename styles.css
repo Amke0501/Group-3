@@ -1,20 +1,19 @@
-h1 {
-  color: #c62828; /* McDonald's red */
-}
-
-.lead {
-  color: #555;
-}
-
 .btn-primary {
-  background-color: #ffca28; /* McDonald's golden yellow */
+  background-color: #ffca28; /* golden yellow */
   border-color: #ffca28;
   color: #000;
-  padding: 8px;
 }
 
 .btn-primary:hover {
-  background-color: red;
+  background-color: red; /* McDonald's red */
   border-color: red;
-  color: white;
+  color: #fff;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: red !important;
+  border-color: red !important;
+  color: #fff !important;
+  box-shadow: none !important; /* remove blue glow */
 }
