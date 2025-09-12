@@ -15,3 +15,8 @@
   color:rgb(216, 216, 2) !important; /*Since we using bootsrap classes thats already modified we have to use important to override to use the css*/
   transition: color 0.3s ease;
 }
+
+.banners{
+    width: 180px;
+ 
+}
