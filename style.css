@@ -1,0 +1,17 @@
+.header{
+    font-size: 15px;
+}
+
+.letter{
+    margin-left:50%;
+}
+
+.contact{
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+  color:rgb(216, 216, 2) !important; /*Since we using bootsrap classes thats already modified we have to use important to override to use the css*/
+  transition: color 0.3s ease;
+}
