@@ -1,0 +1,17 @@
+.nav .nav-link {
+  color: black !important;
+  transition: color 0.3s ease;
+}
+
+.nav .nav-link:hover {
+  color: red !important;
+}
+
+.search-btn {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.search-btn:hover {
+  color: #ffc107;
+}
