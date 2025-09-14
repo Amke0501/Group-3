@@ -65,13 +65,13 @@ body{
   font-size: 11px;
 }
 
-main {
+/* main {
   margin-top: 56px;
 
-}
+} */
 
 #myCarousel .carousel-item {
-  height: 100vh;
+  height: 90vh;
   min-height: 400px;
 }
 
@@ -112,3 +112,38 @@ main {
   background-color: red;
 }
 
+   .horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    scroll-snap-type: x mandatory;
+  }
+
+  .card-container {
+    flex: 0 0 auto; /* prevent shrinking below content */
+    width: 450px; /* min width on mobile */
+    max-width: 550px; /* max width on desktop */
+    scroll-snap-align: start;
+  }
+
+  .card-container h1,
+  .card-container p {
+    word-wrap: break-word; /* break long words */
+    overflow-wrap: break-word;
+  }
+
+  /* Optional: add some padding inside cards */
+  .card-container .card-inner {
+    padding: 1rem;
+  }
+
+  /* Optional scrollbar styling */
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
