@@ -43,8 +43,8 @@ body{
 }
 
 .nav-link:hover {
-  color:#DA291C !important; /*Since we using bootsrap classes thats already modified we have to use important to override bootstrap to use the css*/
-  transform: scale(1.03); /* slight zoom effect */
+  color:#DA291C !important;
+  transform: scale(1.03); 
 }
 
 .banners{
@@ -121,24 +121,24 @@ body{
   }
 
   .card-container {
-    flex: 0 0 auto; /* prevent shrinking below content */
-    width: 450px; /* min width on mobile */
-    max-width: 550px; /* max width on desktop */
+    flex: 0 0 auto; 
+    width: 450px; 
+    max-width: 550px; 
     scroll-snap-align: start;
   }
 
   .card-container h1,
   .card-container p {
-    word-wrap: break-word; /* break long words */
+    word-wrap: break-word;
     overflow-wrap: break-word;
   }
 
-  /* Optional: add some padding inside cards */
+
   .card-container .card-inner {
     padding: 1rem;
   }
 
-  /* Optional scrollbar styling */
+
   .horizontal-scroll::-webkit-scrollbar {
     height: 8px;
   }

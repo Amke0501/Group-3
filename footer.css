@@ -24,8 +24,8 @@ body{
    font-size: 15px !important;
 }
 .nav-link:hover {
-  color:#DA291C !important; /*Since we using bootsrap classes thats already modified we have to use important to override bootstrap to use the css*/
-  transform: scale(1.03); /* slight zoom effect */
+  color:#DA291C !important; 
+  transform: scale(1.03); 
 }
 
 .banners{
