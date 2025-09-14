@@ -1,0 +1,48 @@
+body{
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+
+.header{
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    font-weight: bold;
+}
+
+.letter{
+    margin-left:50%;
+}
+
+.contact{
+    margin-top: 10%;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+    font-weight: bold;
+}
+
+.nav-link
+{
+   font-size: 15px !important;
+}
+.nav-link:hover {
+  color:#DA291C !important; /*Since we using bootsrap classes thats already modified we have to use important to override bootstrap to use the css*/
+  transform: scale(1.03); /* slight zoom effect */
+}
+
+.banners{
+    width: 180px;
+ 
+}
+
+.btn{
+    transition: background-color 0.3s ease, transform 0.3s ease !important; 
+    background-color:#DA291C !important;
+}
+.btn:hover{
+    
+    background-color: #FFC72C !important;
+    
+}
+
+.footer-text{
+    font-size: 11px;
+}
