@@ -1,1 +1,1 @@
-# Group-3
+# McDonald's Clone
