@@ -1,1 +1,1 @@
-# McDonald's Clone
+# McDonald Clone
